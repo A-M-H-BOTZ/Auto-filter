@@ -470,11 +470,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 🔥', url='https://t.me/+PHrxIyskSYBiZGE1'),
-            InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ 🔥', url='https://t.me/+Qgl9u-hN_7ZkYTVl')
+            InlineKeyboardButton('🔥 ᴄʜᴀɴɴᴇʟ 🔥', url='https://t.me/i_primeroom_01'),
+            InlineKeyboardButton('🔥 ɢʀᴏᴜᴘ 🔥', url='https://t.me/i_primeroom_02')
             ],[
             InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('😈 ᴏᴡɴᴇʀ 😈', url='https://t.me/Anmol0700')
+            InlineKeyboardButton('😈 ᴏᴡɴᴇʀ 😈', url='https://t.me/Ayush_Sharma_15')
             ],[
             InlineKeyboardButton('ℹ️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😏 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -537,7 +537,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('😎ᴏᴡɴᴇʀ', url='https://t.me/Anmol0700'),
+            InlineKeyboardButton('😎ᴏᴡɴᴇʀ', url='https://t.me/Ayush_Sharma_15'),
             InlineKeyboardButton('♥️ ꜱᴏᴜʀᴄᴇ', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ', callback_data='start'),
